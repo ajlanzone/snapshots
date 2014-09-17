@@ -1,0 +1,21 @@
+body {
+  background-position: 50% 30px;
+  background-repeat: no-repeat;
+  margin: 0;
+  min-width: 1000px;
+}
+body:after {
+  background-color: rgba(219, 68, 55, 0.8);
+  color: #fff;
+  content: 'This page is no longer available online. This a non-interactive snapshot of what the page used to look like.';
+  display: block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8em;
+  height: 30px;
+  left: 0;
+  line-height: 30px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
